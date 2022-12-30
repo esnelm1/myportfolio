@@ -1,167 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Esnel Massaro's Portfolio</title> 
-  <meta charset="utf-8"> 
+  <title>Esnel Massaro's Portfolio</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  
 </head>
+
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
   <a id="top"></a>
-    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav mx-auto">
-              <a class="navbar-brand" href="#top">Esnel Massaro</a>
-              <li class="nav-item">
-                <a class="nav-link" href="#section1">experiences</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#section2">about me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#section3">contact</a>
-              </li>  
-            </ul>
+  <nav class="navbar fixed-top navbar-expand-sm bg-primary navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#top"><strong>Esnel Massaro</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#section1">experiences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">about me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section3">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="section1" class="container-fluid text-white" style="padding: 50px 20px;background-color: rgb(209, 209, 209);">
+    <div class="row" style="padding:15px;">
+      <div class="col-lg-3 mb-2 d-flex align-items-stretch" style="padding:15px;">
+        <div class="card text-dark " >
+          <img class="card-img-top" src="images\steelChallenge.PNG" alt="Card image">
+          <div class="card-body d-flex flex-column">
+            <p class="card-title"><strong>steelChallenge competition with steelUniversity</strong>— July 2022 / November
+              2022</p>
+            <p class="card-text"> Participation in steelChallenge-17, a competition in which steel
+              refining was simulated according to chemical, temperature and
+              environmental requirements.</p>
           </div>
         </div>
-      </nav>
+      </div>
+      <div class="col-lg-3 mb-2 d-flex align-items-stretch" style="padding:15px;">
+        <div class="card text-dark" >
+          <img class="card-img-top" src="images/bomba.jpg" alt="Card image">
+          <div class="card-body d-flex flex-column">
+            <p class="card-title"><strong>Internship on the ITBA Energy Laboratory</strong>— March 2022 / Present</p>
+            <p class="card-text"> Preparation of injection pump for the project of high pressure
+              electrolyzer project.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 mb-2 d-flex align-items-stretch" style="padding:15px;">
+        <div class="card text-dark">
+          <img class="card-img-top" src="images/manifold.jpg" alt="Card image">
+          <div class="card-body">
+            <p class="card-title"><strong>Flow-metric of manifold of a diesel engine</strong>— March 2022 / July 2022
+            </p>
+            <p{vertical-align: middle;} class="card-text">Member of the team in charge of the flow-metric of exhaust and
+              intake manifold for future modeling and comparison with CFD
+              models.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 mb-2 d-flex align-items-stretch" style="padding:15px;">
+        <div class="card text-dark" >
+          <img class="card-img-top" src="images/drone.png" alt="Card image">
+          <div class="card-body">
+            <p class="card-title"><strong>Project leader of IAM3d ASME ITBA</strong>— December 2020 / March 2021</p>
+            <p class="card-text">Design of a racing drone with cargo transport manufactured by
+              additive manufacturing for the international ASME competition.</p>
+          </div>
+        </div>
+      </div>
 
-        <div id="section1" class="container-fluid bg-secondary text-white" style="padding:30px 20px;">
-           <div class="row" style="padding:15px;">
-           <div class="col" style="padding:15px;">
-            <div class="card text-dark" style="width:300px;height: 570px">
-              <img class="card-img-top" src="images\steelChallenge.PNG" alt="Card image">
-              <div class="card-body">
-                <p class="card-title"><strong>steelChallenge competition with steelUniversity</strong>— July 2022 / November 2022</p>
-                <p class="card-text"> Participation in steelChallenge-17, a competition in which steel
-                  refining was simulated according to chemical, temperature and
-                  environmental requirements.</p>
-              </div>
-            </div>
-            </div>
-           <div class="col" style="padding:15px;" >
-            <div class="card h-80 text-dark" style="width:200px;height: 570px">
-              <img class="card-img-top" src="images/bomba.jpg" alt="Card image">
-              <div class="card-body">
-                <p class="card-title"><strong>Internship on the ITBA Energy Laboratory</strong>— March 2022 / Present</p>
-                <p class="card-text"> Preparation of injection pump for the project of high pressure
-                  electrolyzer project.</p>
-              </div>
-            </div>
-            </div>
-            <div class="col" style="padding:15px;">
-            <div class="card h-80 text-dark" style="width:250px;height: 570px">
-              <img class="card-img-top" src="images/manifold.jpg" alt="Card image">
-              <div class="card-body">
-                <p class="card-title"><strong>Flow-metric of manifold of a diesel engine</strong>— March 2022 / July 2022</p>
-                <p{vertical-align: middle;} class="card-text">Member of the team in charge of the flow-metric of exhaust and
-                  intake manifold for future modeling and comparison with CFD
-                  models.</p>
-              </div>
-            </div>
-            </div>
-            
-            <div class="col" style="padding:15px;">
-            <div class="card h-80 text-dark" style="width:200px;height: 570px">
-              <img class="card-img-top" src="images/drone.png" alt="Card image">
-              <div class="card-body">
-                <p class="card-title"><strong>Project leader of IAM3d ASME ITBA</strong>— December 2020 / March 2021</p>
-                <p class="card-text">Design of a racing drone with cargo transport manufactured by
-                  additive manufacturing for the international ASME competition.</p>
-              </div>
-            </div>
-            </div>
-        <div id="section2" class="container-fluid bg-secondary" style="padding:35px 20px;">
-        <div class="card text-dark rounded-3" style="padding:20px 20px;" >
+      <div id="section2" class="container-fluid" style="padding:35px 20px;background-color: rgb(209, 209, 209);">
+        <div class="card text-dark rounded-3" style="padding:20px 20px;">
           <h3>About me...</h3>
           <p>As a student, I have always looked for building my own criteria to be able to
-solve problems fast and efficiently, appealing to teamwork and taking the
-necessary risks and responsibilities. Now, with the knowledge I have
-acquired, I am looking forward to contribute to the industry and enrich my
-professional development by doing so</p>
+            solve problems fast and efficiently, appealing to teamwork and taking the
+            necessary risks and responsibilities. Now, with the knowledge I have
+            acquired, I am looking forward to contribute to the industry and enrich my
+            professional development by doing so</p>
         </div>
-        </div>
-        
-        <div id="section3" class="container-fluid bg-secondary text-white" style="padding:10px 20px;">
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
+      </div>
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-<div class="container">
-	<div class="row justify-content-center">
-		<div class="col-12 col-md-8 col-lg-6 pb-5">
+      <div id="section3" class="container-fluid text-white" style="padding:0px 20px;background-color: rgb(209, 209, 209);">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+          integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6 pb-5">
 
-
-                    <!--Form with header-->
-
-                    <form action="mail.php" method="post">
-                        <div class="card rounded-3">
-                            <div class="card-header p-2">
-                                <div class="bg-light text-dark text-center py-2">
-                                    <h3><i class="fa fa-envelope"></i> Contactame</h3>
-                                </div>
-                            </div>
-                            <div class="card-body p-3">
-
-                                <!--Body-->
-                                <div class="form-group">
-                                    <div class="input-group mb-2">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fa fa-user text-dark"></i></div>
-                                        </div>
-                                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido" required>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="input-group mb-2">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fa fa-envelope text-dark"></i></div>
-                                        </div>
-                                        <input type="email" class="form-control" id="nombre" name="email" placeholder="ejemplo@gmail.com" required>
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <div class="input-group mb-2">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fa fa-comment text-dark"></i></div>
-                                        </div>
-                                        <textarea class="form-control" placeholder="Envianos tu Mensaje" required></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="text-center">
-                                    <input type="submit" value="Enviar" class="btn btn-dark btn-block rounded-0 py-2">
-                                </div>
-                            </div>
-
+              <form action="mail.php" method="post">
+                <div class="card rounded-3">
+                  <div class="card-header p-2">
+                    <div class="bg-light text-dark text-center py-2">
+                      <h3><i class="fa fa-envelope"></i> Contactame</h3>
+                    </div>
+                  </div>
+                  <div class="card-body p-3">
+                    <div class="form-group">
+                      <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text"><i class="fa fa-user text-dark"></i></div>
                         </div>
-                    </form>
-                    <!--Form with header-->
+                        <input type="text" class="form-control" id="nombre" name="nombre"
+                          placeholder="Nombre y Apellido" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text"><i class="fa fa-envelope text-dark"></i></div>
+                        </div>
+                        <input type="email" class="form-control" id="nombre" name="email"
+                          placeholder="ejemplo@gmail.com" required>
+                      </div>
+                    </div>
 
+                    <div class="form-group">
+                      <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text"><i class="fa fa-comment text-dark"></i></div>
+                        </div>
+                        <textarea class="form-control" placeholder="Envianos tu Mensaje" required></textarea>
+                      </div>
+                    </div>
+
+                    <div class="text-center">
+                      <input type="submit" value="Enviar" class="btn btn-dark btn-block rounded-0 py-2">
+                    </div>
+                  </div>
 
                 </div>
-	</div>
-</div>
+              </form>
+            </div>
+          </div>
         </div>
-        
-        <div class="mt-0 p-4 bg-dark text-white text-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-</svg>
+      </div>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-</svg>
-        </div>
+<div>
+
+  <footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/esnelm1/?hl=en!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/esnel-m-3b59a21b2" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="#">Esnel Massaro</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+  
+</div>
+<!-- End of .container -->
+
+
+
 
 
 </body>
+
 </html>
